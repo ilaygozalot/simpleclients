@@ -1,0 +1,19 @@
+json
+{
+  "schemaVersion": 1,
+  "id": "simpleclient",
+  "version": "1.0.0",
+  "name": "Simple Client",
+  "description": "All-in-one client",
+  "authors": ["Player"],
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.simple.SimpleClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.21"
+  }
+}
